@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from decimal import getcontext, Decimal
 
-path = 'C:/Users/gcmil/Desktop/Corsi/Tesi/Programma/Isomorphic_Graphs_Kernelization/results/'
+path = '../results/'
 # path = 'C:/Users/gcmil/Desktop/Corsi/Tesi/Evaluation/n=100/'
 file_prefix = 'graph_p_'
 txt_type = '.txt'

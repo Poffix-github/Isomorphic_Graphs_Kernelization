@@ -21,14 +21,14 @@ def main():
 
     length = 100
     probability = [0.01, 0.03, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 0.97, 0.99]
-    path = 'C:/Users/gcmil/Desktop/Corsi/Tesi/Evaluation/data/'
+    path = '../data/'
     rep = 100
     time_all = []
     size_all = []
     accuracy_all = []
 
     for p in probability:
-        print('Probability: '+str(p))
+        print('Probability: ' + str(p))
         time_p = []
         size_p = []
         acc_p = []
